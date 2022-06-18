@@ -1,0 +1,113 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 1120px;
+	margin: 0 auto;
+}
+
+p{
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6{ 
+	font-family: 'DM Sans', sans-serif;
+}
+
+header{
+	padding-top: 40px;
+}
+
+.upward{
+	display: flex;
+	justify-content: space-between;
+}
+
+.upward__logo p{
+	font-family: 'DM Sans', sans-serif;
+	font-size: 32px;
+	font-weight: 500;
+}
+
+menu ul{
+	display: flex;
+	list-style-type: none;
+
+}
+
+menu a{
+	text-decoration: none;
+	color: black;
+	padding-left: 30px;
+	font-weight: 500;
+	font-size: 16px;
+	font-family: 'DM Sans', sans-serif;
+}
+
+.main-part{
+	display: flex;
+	justify-content: space-between;
+}
+
+h1{
+	font-size: 54px;
+	width: 360px;
+	padding-top: 223px;
+	padding-bottom: 116px;
+}
+
+.main-part p{
+	color: #606060;
+	font-size: 30px;
+	font-family: 'DM Sans';
+	width: 580px;
+	padding-top:287px ;
+	padding-right: 64px;
+}
+
+.first{
+	padding-top: 113px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.first__text{
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+}
+
+h2{
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 18px;
+	color: #181717;
+}
+
+.first__up p{
+/*	margin: 25px 0px 40 px 0px;
+*/	font-size: 18px;
+	width: 356px;
+	margin-top: 25px;
+}
+
+#first__text-small {
+	font-size: 14px;
+	color: #606060;
+	width: 315px;
+	margin-top: 40px;
+}	
+
+.first__down a{
+	font-weight: 500;
+	font-size: 18px;
+	text-decoration-line: underline;
+	color: #181717;
+}
+
+
+
