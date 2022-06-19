@@ -69,13 +69,13 @@ h1{
 	padding-right: 64px;
 }
 
-.first{
+.first, .second, .third{
 	padding-top: 113px;
 	display: flex;
 	justify-content: space-between;
 }
 
-.first__text{
+.first__text, .second__text, .third__text{
 	flex-direction: column;
 	display: flex;
 	justify-content: space-between;
@@ -88,7 +88,7 @@ h2{
 	color: #181717;
 }
 
-.first__up p{
+.first__up p, .second__up p, .third__up p{
 /*	margin: 25px 0px 40 px 0px;
 */	font-size: 18px;
 	width: 356px;
@@ -102,12 +102,14 @@ h2{
 	margin-top: 40px;
 }	
 
-.first__down a{
+.first__down a, .second__down a, .third__down a{
 	font-weight: 500;
 	font-size: 18px;
 	text-decoration-line: underline;
 	color: #181717;
 }
 
-
+.first__img img, .second__img img, .third__img img {
+	width: 640px;
+}
 
