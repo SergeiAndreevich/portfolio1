@@ -3,6 +3,10 @@
 	padding: 0px;
 }
 
+body{
+	background-color:  #E5E5E5;
+}
+
 .container{
 	width: 1120px;
 	margin: 0 auto;
@@ -27,10 +31,16 @@ header{
 	justify-content: space-between;
 }
 
-.upward__logo p{
+.upward__logo a{
 	font-family: 'DM Sans', sans-serif;
 	font-size: 32px;
 	font-weight: 500;
+	text-decoration: none;
+	color: black;
+}
+
+.active {
+	color: grey;
 }
 
 menu ul{
@@ -113,3 +123,66 @@ h2{
 	width: 640px;
 }
 
+.basement{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 160px;
+	padding-bottom: 40px;
+}
+
+.basement__left p{
+	color: #2429AF;
+	font-weight: 500;
+}
+
+.basement__right a{
+	text-decoration: none;
+	font-family: 'DM Sans';
+	color: #000;
+	padding-left: 40px;
+}
+
+/*About Page*/
+.about__main-part {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 223px;
+}
+
+#about__h1{
+	width: 480px;
+}
+
+.main-part__text p{
+	width: 575px;
+	font-family: 'DM Sans';
+	font-size: 30px;
+	color: #606060;
+}
+
+.review{
+	padding-top: 136px;
+}
+
+.review__skill{
+	display: flex;
+}
+
+.skill__name a{
+	text-decoration: none;
+	text-decoration: underline;
+	color: black;
+}
+
+.skill__description{
+	padding-left: 63px;
+	width: 380px;
+}
+
+#skill__add{
+	margin-top: 24px;
+}
+
+.second-skill{
+	margin-top: 72px;
+}
