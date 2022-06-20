@@ -146,11 +146,20 @@ h2{
 .about__main-part {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 223px;
+	padding-top: 140px;
+	height: 590px;
 }
 
 #about__h1{
 	width: 480px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.main-part__text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .main-part__text p{
@@ -158,6 +167,7 @@ h2{
 	font-family: 'DM Sans';
 	font-size: 30px;
 	color: #606060;
+	margin-top: 40px;
 }
 
 .review{
@@ -185,4 +195,37 @@ h2{
 
 .second-skill{
 	margin-top: 72px;
+}
+
+.question{
+	padding-top: 71px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.question__ask h3{
+	width: 300px;
+	font-family: 'DM Sans';
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.question__answer a{
+	text-decoration: none;
+	color: black;
+}
+
+.email{
+	font-family: 'DM Sans';
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.view{
+	color: #181717;
+	margin-top: 27px;
+}
+
+.secondary_skill{
+	padding-left: 83px;
 }
